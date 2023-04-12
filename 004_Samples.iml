@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="com:itvdn:jdbcandhibernate:ex_002_hibernate_intro:hibernate.cfg.xml" value="9d04ea15-b183-482d-962d-619b724a1f76" />
+          <unit-entry name="com:itvdn:jdbcandhibernate:ex_003_hibernate_get_and_insert:hibernate.cfg.xml" value="ca0c3d0c-fb45-485b-9b2b-8feb3ca3f562" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Samples4/src/com/itvdn/jdbcandhibernate/ex_002_hibernate_intro/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Samples4/src/com/itvdn/jdbcandhibernate/ex_003_hibernate_get_and_insert/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="mohr" value="695e9f68-b4d1-42b9-a9e1-765d56ad7807" />
+        </datasource-mapping>
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/Samples4/src/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Samples4/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="antlr-2.7.6" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.30" level="project" />
+  </component>
+</module>
